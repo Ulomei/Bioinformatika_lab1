@@ -1,5 +1,5 @@
-Užduoties tikslas: įvertinti kodonų ir dikodonų dažnio skirtumus žinduolių ir bakterijų virusuose. Parasykite programa, kuri:  
-1. Pateiktoje sekoje fasta formatu surastu visas start ir stop kodonų poras, tarp kurių nebutu stop kodono (ir tiesioginei sekai ir jos reverse komplementui). 
+Užduoties tikslas: įvertinti kodonų ir dikodonų dažnio skirtumus žinduolių ir bakterijų virusuose.
+1. Pateiktoje sekoje fasta formatu surasti visas start ir stop kodonų poras, tarp kurių nebutų stop kodono (ir tiesioginei sekai ir jos reverse komplementui). 
 2. Kiekvienam stop kodonui parinkti toliausiai nuo jo esanti start kodoną (su salyga, kad tarp ju nera kito stop kodono)
 3. Atfiltruokite visus fragmentus ("tai butu baltymų koduojancios sekos"), kurie trumpesni nei 100 bp.
 4. Konvertuokite koduojancias sekas (start stop kodonu poras) i baltymo seka. Kodonus ir dikodonus analizuokite ne DNR o baltymo lygmenyje (vienas dikodonas - aminorugstis)., t.y tolesnuose zingsniuose - kodonas - viena aminorugstis, dikodonas - dvi.
